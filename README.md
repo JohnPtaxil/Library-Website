@@ -1,10 +1,8 @@
-# Web Development 2 Assignment:
+# Module: Web Development 2
 
-Date : 16/11/2024
-
-Author : John Patacsil
-
-Grade : 96%
+**Date:** 20/03/24  
+**Authors:** John Patacsil, Justin McGarr, Cillian Quinn  
+**Result:** 87%
 
 ## Description:
 This project is part of the Web Development 2 coursework.  
