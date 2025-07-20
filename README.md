@@ -1,7 +1,7 @@
 # Module: Web Development 2
 
 **Date:** 20/03/24  
-**Authors:** John Patacsil, Justin McGarr, Cillian Quinn  
+**Authors:** John Patacsil 
 **Result:** 87%
 
 ## Description:
