@@ -1,6 +1,6 @@
-# Web Development 2 Assignment
+# Web Development 2 Assignment:
 
-## Description
+## Description:
 This project is part of the Web Development 2 coursework.  
 It demonstrates key web development concepts and skills such as HTML, CSS, and backend integration.  
 The assignment includes various features to meet the course requirements and showcase practical understanding.
@@ -16,7 +16,7 @@ The assignment includes various features to meet the course requirements and sho
 
 </details>
 
-## Screenshots
+## Screenshots:
 
 <details>
   <summary>Home Page (Login)</summary>
