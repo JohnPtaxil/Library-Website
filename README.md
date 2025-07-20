@@ -1,8 +1,7 @@
 # Module: Web Development 2
 
 **Date:** 20/03/24  
-**Authors:** John Patacsil
-
+**Authors:** John Patacsil                                                                
 **Result:** 87%
 
 ## Description:
