@@ -19,12 +19,10 @@ The assignment includes various features to meet the course requirements and sho
 <details>
 <summary><strong>Screenshots</strong></summary>
 
-<!-- Pics of Website, 8 images in drop down -->
 Pictures of Website:
-<!-- Login -->
 <details>
-  <summary>Login</summary>
-  <img src="https://raw.githubusercontent.com/erdyn/MyWebsite/refs/heads/main/pictures/login.png" alt="Login Page">
+  <summary>Home Page (Login)</summary>
+  <img src="<img width="1897" height="907" alt="image" src="https://github.com/user-attachments/assets/f34081cc-9c3b-4279-8b05-18f26a99dd50" />" alt="Login Page">
 </details>
 
 <!-- Register -->
