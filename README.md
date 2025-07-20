@@ -1,7 +1,9 @@
 # Web Development 2 Assignment:
 
 Date : 16/11/2024
+
 Author : John Patacsil
+
 Grade : 96%
 
 ## Description:
