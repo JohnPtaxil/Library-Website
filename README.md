@@ -19,20 +19,55 @@ The assignment includes various features to meet the course requirements and sho
 <details>
 <summary><strong>Screenshots</strong></summary>
 
-![Home Page (Login)](<img width="1901" height="913" alt="Screenshot 2025-07-20 141623" src="https://github.com/user-attachments/assets/d688a4a1-79d7-41dd-a2dc-8cc7f8077736" />
-)  
-*Top of Home Page (Login Section)*
+<!-- Pics of Website, 8 images in drop down -->
+Pictures of Website:
+<!-- Login -->
+<details>
+  <summary>Login</summary>
+  <img src="https://raw.githubusercontent.com/erdyn/MyWebsite/refs/heads/main/pictures/login.png" alt="Login Page">
+</details>
 
-![Home Page (Register)](<img width="1898" height="906" alt="image" src="https://github.com/user-attachments/assets/5c217148-740b-440b-a38f-1bf03deee2c2" />)  
-*Bottom of Home Page (Register Section)*
+<!-- Register -->
+<details>
+  <summary>Register</summary>
+  <img src="https://raw.githubusercontent.com/erdyn/MyWebsite/refs/heads/main/pictures/register.png" alt="Register Page">
+</details>
 
+<!-- Home -->
+<details>
+  <summary>Home Page</summary>
+  <img src="https://raw.githubusercontent.com/erdyn/MyWebsite/refs/heads/main/pictures/index1.png" alt="Home Page">
+</details>
 
+<!-- Home 2 -->
+<details>
+  <summary>Home Page (scrolled down)</summary>
+  <img src="https://raw.githubusercontent.com/erdyn/MyWebsite/refs/heads/main/pictures/index2.png" alt="Home Page 2">
+</details>
 
+<!-- Not signed in -->
+<details>
+  <summary>Page when not signed in</summary>
+  <img src="https://raw.githubusercontent.com/erdyn/MyWebsite/refs/heads/main/pictures/indexNotSignedIn.png" alt="Page Not Signed In">
+</details>
 
-![Responsive Design](path/to/responsive-screenshot.png)  
-*Responsive view on mobile device.*
+<!-- Reserve Book -->
+<details>
+  <summary>Reserve Book</summary>
+  <img src="https://raw.githubusercontent.com/erdyn/MyWebsite/refs/heads/main/pictures/reserve.png" alt="Reserve Book">
+</details>
 
-![Feature Demo](path/to/feature-screenshot.png)  
+<!--  Book Reserved -->
+<details>
+  <summary>Book reserved</summary>
+  <img src="https://raw.githubusercontent.com/erdyn/MyWebsite/refs/heads/main/pictures/reserved.png" alt="Book reserved successfully">
+</details>
+
+<!-- View Reservations-->
+<details>
+  <summary>View Reservations</summary>
+  <img src="https://raw.githubusercontent.com/erdyn/MyWebsite/refs/heads/main/pictures/viewReservations.png" alt="View Reservations">
+</details>
 *Screenshot showing feature in action.*
 
 </details>
