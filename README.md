@@ -39,6 +39,9 @@ The assignment includes various features to meet the course requirements and sho
   <img src="https://github.com/user-attachments/assets/ae9e0692-ad69-4bf6-8ff1-5b0c6d8be3b2" alt="Image of Book Search Page" width="800" />
 </details>
 
-
+<details>
+  <summary>Book Reservations Page</summary>
+  <img src="https://github.com/user-attachments/assets/ad557d84-89d2-4947-a895-52cf911533c7" alt="Image of Book Reservations Page" width="800" />
+</details>
 
 
