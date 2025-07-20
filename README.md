@@ -44,4 +44,8 @@ The assignment includes various features to meet the course requirements and sho
   <img src="https://github.com/user-attachments/assets/ad557d84-89d2-4947-a895-52cf911533c7" alt="Image of Book Reservations Page" width="800" />
 </details>
 
+<details>
+  <summary>Logged Out Page</summary>
+  <img src="[https://github.com/user-attachments/assets/ad557d84-89d2-4947-a895-52cf911533c7](https://github.com/user-attachments/assets/5f0623ee-35d5-45fb-8116-623b5d2f4d05)" alt="Image of Website when logged out" width="800" />
+</details>
 
