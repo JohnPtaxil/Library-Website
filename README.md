@@ -30,7 +30,7 @@ The assignment includes various features to meet the course requirements and sho
 
 <details>
   <summary>Home Page (Logged in)</summary>
-  <img width="1899" height="912" alt="image" src="https://github.com/user-attachments/assets/2e175443-a919-469c-a64a-0e892ab0cec3" alt="Image of Home Page (Logged In)" />
+  <img src="https://github.com/user-attachments/assets/2e175443-a919-469c-a64a-0e892ab0cec3" alt="Image of Home Page (Logged In)" width="800" />
 </details>
 
 <details>
