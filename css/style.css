@@ -1,0 +1,730 @@
+/* Universal reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: #C6ADEB;
+}
+
+/* Links and Buttons */
+.logout-button {
+    background-color: #8e68c5;
+    color: #ffffff;
+    padding: 1% 1%;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.4s ease;
+    margin-top: 0.7%;
+    margin-left: 1%;
+}
+
+.logout-button:hover {
+    background-color: #5a0ad1;
+    transform: scale(0.98);
+}
+
+.logout-button:active {
+    transform: scale(1);
+    background-color: #5545ba;
+}
+
+.login-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #6713e6;
+    padding: 5px 10px;
+    border: thin solid #555;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.login-button a:hover {
+    background-color: rgb(28, 90, 131);
+}
+
+.login-buttons,
+.reg-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 0.625em;
+}
+
+a.active {
+    background-color: #20202d;
+    color: #7d1ae7;
+    border: thin solid #000000;
+}
+
+/* General container for access denied message */
+.access-denied-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #e9d6f7;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Message box styling */
+.access-denied-message {
+    text-align: center;
+    background-color: #f5f0ff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(62, 37, 147, 0.3);
+    max-width: 500px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    color: #4a2c87;
+}
+
+.access-denied-message h1 {
+    color: #6c63ff;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.access-denied-message p {
+    color: #4a2c87;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 3px;
+    margin: 4px auto;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5545ba;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #2f0665;
+    transform: scale(1.05);
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active {
+    transform: scale(1);
+}
+
+/* Sections */
+.login-section,
+.register-section {
+    padding: 2%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 4%;
+}
+
+.login-section {
+    background-color: #997fef;
+}
+
+.register-section {
+    background-color: #af91ef;
+}
+
+/* Form Backgrounds */
+.login-background,
+.register-background {
+    background-color: #9faaf1;
+    width: 34em;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0.5em 0.7em rgba(0, 0, 0, 0.1);
+    margin: 0 3%;
+    box-sizing: border-box;
+}
+
+.register-background {
+    background-color: #c3bbf4;
+}
+
+/* Form Elements */
+.form-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+    background-color: #a481d5;
+    color: #ffffff;
+    max-width: 6.25em;
+    margin: 0.625em auto;
+    border-radius: 20px;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Login message reply */
+.form-msg {
+    background-color: #2B216E;
+    padding: 50px;
+    color: #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0.5em 0.7em rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1rem;
+    width: 20%;
+    margin: auto;
+    margin-right: 17%;
+}
+
+.msg {
+    background-color: #f5f0ff; /* Light lavender background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(142, 113, 236, 0.3); /* Subtle purple shadow */
+    text-align: center;
+    max-width: 40%;
+    margin: 20px auto; /* Center the box */
+    font-family: Arial, sans-serif;
+}
+
+.msg h2 {
+    color: #4a2c87; /* Dark purple text */
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* Username and password text */
+.form-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+/* Inputs */
+input[type="text"],
+input[type="password"],
+input[type="tel"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="tel"]:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+    border-color: #6c63ff;
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.5);
+}
+
+/* Select Dropdown */
+.form-select {
+    width: 50%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    color: #333;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.form-select:focus {
+    border-color: #8e71ec;
+    outline: none;
+    box-shadow: 0 0 8px rgba(142, 113, 236, 0.5);
+}
+
+.form-select option {
+    padding: 4px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.form-select option:hover {
+    background-color: #f3f3f3;
+}
+
+.search-buttons {
+    margin-left: 20%;
+}
+
+/* Username Button */
+.username {
+    align-items: center;
+    margin-top: 0.8%;
+    margin-right: 1%;
+    padding: 0.2em 0.9em;
+    float: right;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #3E2593;
+    color: #ffffff;
+    font-size: 0.7em;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 2px solid #e5b8ff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.username:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(108, 99, 255, 0.3);
+    background-color: #6c63ff;
+    border-color: #ffffff;
+}
+
+/* Form Styling */
+.form-style {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation */
+.full-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.active {
+    background-color: rgb(194, 114, 9);
+}
+
+/* Titles */
+#title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+}
+
+.top-title {
+    background-size: cover;
+    background-image: url("../images/waves.jpg");
+    padding: 9%;
+    margin: auto;
+    text-align: center;
+}
+
+.top-title .container {
+    margin: auto;
+    border: 0.5em solid #626DD8;
+    border-radius: 10px;
+    background-color: #7885e7;
+    text-align: center;
+    max-width: 14em;
+    opacity: 80%;
+    min-width: 4em;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* Styled container for the title */
+.books-title-container,
+.reservations-heading {
+    background-color: #f5f0ff; /* Light lavender background */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(62, 37, 147, 0.3); /* Subtle purple shadow */
+    max-width: 80%;
+    margin: 20px auto; /* Centered with space around */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.books-title-container h2 {
+    color: #4a2c87; /* Dark purple text */
+    font-size: 1.8em;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Book Container */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Book Card */
+.book-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Book Details */
+.book-details p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+
+/* Reserve Button */
+.reserve-button{
+    background-color: #6f4ce1;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 27%;
+}
+.reserve-button,
+.unavailable {
+    text-align: center;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+
+}
+
+.unavailable {
+    background-color: #3e2593;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.reserve-button:hover {
+    background-color: #6c63ff;
+}
+
+.reserve-button:active {
+    background-color: #2f0665;
+}
+
+/* No Books Message */
+.no-books {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-top: 30px;
+}
+
+/* General form styling */
+.reservation-form {
+    background-color: #f3f3f7; /* Light purple background */
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.search-title {
+    text-align: center;
+    color: #8e71ec;
+    font-size: 1.8em;
+    margin: auto;
+}
+
+/* Title box styling */
+.search-title-box {
+    background-color: #ede7ff; /* Purple background */
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+/* Container to align the form and message box */
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Input form on the left */
+.reservation-form {
+    width: 45%;
+}
+
+/* Message Box Styling */
+.message-box {
+    width: 100%;
+    max-width: 600px; /* Limit the width of the message box */
+    padding: 20px;
+    margin: 20px auto; /* Center the message box horizontally */
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1em;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f3e5f5;
+    border: 1px solid #6c18bb; 
+    color: #9b1ee9;
+}
+
+
+/* Message Text */
+.message-box p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Style for the heading box */
+.book-search-box {
+    background-color: #6a4c9c; /* Purple background */
+    padding: 20px; /* Add padding around the text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px; /* Space below the box */
+}
+
+/* Style for the heading text */
+.books-heading {
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif; /* Font style */
+    font-size: 24px; /* Size of the text */
+    margin: 0; /* Remove margin around the heading */
+}
+
+
+/* Style for the entire book list box */
+.book-list-box {
+    background-color: #edd6ffe7; /* Light gray background */
+    padding: 20px; /* Padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for depth */
+    margin: 20px auto; /* Center the box */
+    max-width: 1200px; /* Max width of the box */
+}
+
+/* Pagination Container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Pagination Button Styles */
+.pagination a {
+    padding: 10px 20px;
+    background-color: #4a2c87; /* Purple background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for Pagination Buttons */
+.pagination a:hover {
+    background-color: #6c63ff; /* Lighter purple on hover */
+}
+
+/* Disabled Pagination Button (when there's no next/previous page) */
+.pagination a[disabled] {
+    background-color: #ccc;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+/* Page Numbers Container */
+.page-numbers {
+    display: flex;
+    gap: 5px;
+}
+
+/* Individual Page Numbers */
+.page-numbers a {
+    padding: 8px 15px;
+    background-color: #4a2c87;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Active Page Number */
+.page-numbers a.active {
+    background-color: #6c63ff;
+}
+
+/* Style for pagination information */
+.page-info {
+    background-color: #e0d4ff; /* Light purple background */
+    padding: 15px; /* Padding around the text */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center align the text */
+    margin-bottom: 10px; /* Space below the box */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Make the text bold */
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+/* Style for dynamic pagination info (e.g., results found, pages) */
+.page-info span {
+    color: #6a4c9c; /* Purple text color for dynamic content */
+}
+
+
+
+/* Styled box for each book */
+.book-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%; /* Each book takes up 30% of the container width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around each book */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation on hover */
+}
+
+/* Hover effect for each book box */
+.book-box:hover {
+    transform: translateY(-5px); /* Slightly lift the book box */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Increased shadow on hover */
+}
+
+/* Styling for the book title */
+.book-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4a2c87; /* Dark purple color */
+    margin-bottom: 10px;
+}
+
+/* Styling for book information */
+.book-box p {
+    font-size: 1em;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Button styles */
+button {
+    padding: 8px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a2c87;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #7f4fa2; /* Lighter purple on hover */
+}
+
+.reservation-button {
+    margin-left: 15%;
+}
+
+.confirm-button {
+    margin: 1%;
+    margin-left: 17%;
+}
+
+.cancel-button {
+    margin: 1%;
+}
+
