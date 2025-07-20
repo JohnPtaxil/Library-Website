@@ -40,9 +40,13 @@ The assignment includes various features to meet the course requirements and sho
 </details>
 
 <details>
-  <summary>Home Page (Login)</summary>
-  <img src="https://github.com/user-attachments/assets/f34081cc-9c3b-4279-8b05-18f26a99dd50" alt="Image of Login Page" width="800" />
-  <img src="https://github.com/user-attachments/assets/0f1f56b6-0ab9-4ca9-9362-08d4146f4aee" alt="Image of Login Page" width="800" />
+  <summary>Book Search Page</summary>
+  <img src="https://github.com/user-attachments/assets/e13bace1-1622-4407-8f6f-6815140b3ff5" alt="Image of Book Search Page" width="800" />
+</details>
+
+<details>
+  <summary>Book Search Page</summary>
+  <img src="https://github.com/user-attachments/assets/ae9e0692-ad69-4bf6-8ff1-5b0c6d8be3b2" alt="Image of Book Search Page" width="800" />
 </details>
 
 
