@@ -1,5 +1,9 @@
 # Web Development 2 Assignment:
 
+Date : 16/11/2024
+Author : John Patacsil
+Grade : 96%
+
 ## Description:
 This project is part of the Web Development 2 coursework.  
 It demonstrates key web development concepts and skills such as HTML, CSS, and backend integration.  
