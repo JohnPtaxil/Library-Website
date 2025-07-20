@@ -16,7 +16,27 @@ The assignment includes various features to meet the course requirements and sho
 
 </details>
 
-##Screenshots
+## Screenshots
+
+<details>
+  <summary>Home Page (Login)</summary>
+  <img src="https://github.com/user-attachments/assets/f34081cc-9c3b-4279-8b05-18f26a99dd50" alt="Image of Login Page" width="800" />
+</details>
+
+<details>
+  <summary>Home Page (Register)</summary>
+  <img src="https://github.com/user-attachments/assets/2e4b1035-cd95-42f5-856b-64142841d5f3" alt="Image of Register Page" width="800" />
+</details>
+
+<details>
+  <summary>Home Page (Login)</summary>
+  <img src="https://github.com/user-attachments/assets/f34081cc-9c3b-4279-8b05-18f26a99dd50" alt="Image of Login Page" width="800" />
+</details>
+
+<details>
+  <summary>Home Page (Login)</summary>
+  <img src="https://github.com/user-attachments/assets/f34081cc-9c3b-4279-8b05-18f26a99dd50" alt="Image of Login Page" width="800" />
+</details>
 
 <details>
   <summary>Home Page (Login)</summary>
